@@ -10,7 +10,7 @@ LaTeX style file for Use Cases (UC) in Object-Oriented Analysis and Design (OOAD
 ##### Stichworte
 - Object-Oriented Analysis and Design (OOAD)
 - Use Cases (UC)
-- Programmiersprache LaTeX
+- Markup LaTeX
 - Dateiformat *.sty (style file)
 
 <hr>
