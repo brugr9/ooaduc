@@ -1,0 +1,144 @@
+%% OOAD Use Cases Template File
+\documentclass[a4paper, 10pt, oneside, draft]{article}
+\usepackage[utf8]{inputenc}
+
+% Include the OOAD Use Cases package
+\usepackage{../src/ooaduc}
+
+\title{Use Cases Style File for \LaTeX}
+\date{\today}
+\author{Roland Bruggmann}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+% 
+\newpage
+% 
+\section{Use Cases Model}
+\label{sec:use_cases_model}
+% 
+\subsection{Use Cases in brief format}
+\label{subsec:uc_in_brief_format}
+% 
+% All the use-cases of the application you discover, which have to be written in brief format;
+\begin{description}
+  \item[Ren's login:] Description of a simple Use Case of Ren's login.
+
+  \item[Stimpy's login:] Description of a simple Use Case of Stimpy's login.
+
+  \item[Test:] Description of the rather complex Use Case 'Test'.
+
+  (for fully dressed format see page~\pageref{uc:Test})
+
+  \item[Roger on the microfone:] Description of a simple Use Case when Roger is on the microfone.
+\end{description}
+% 
+\newpage
+% 
+\subsection{Use Cases in fully dressed format}
+\label{subsec:uc_in_fully_dressed_format}
+
+\begin{usecase}{Test}
+    % 
+    % Scope: the system under design
+    % Type: single line
+    \scope{System-wide}
+    %
+    % Level: "user-goal" or "subfunction"
+    % Type: single line
+    \level{User-goal}
+    %
+    % Primary Actor: Calls on the system to deliver its services.
+    % Type: single line
+    \primaryactor{End-User}
+    %
+    % Stakeholders and Interests: Who cares about this use case and what do they want?
+    % Type: itemized list
+    \stakeholders{
+      \item MTV want's to have music videos tested.
+      \item Space Shuttle 'Endeavour' must have to be tested too.
+    }
+    %
+    % Precondition(s): What must be true on start? 
+    % Type: single line
+    \precondition{A single condition on start.}
+    % ... when multiple: plural
+    % Type: itemized list
+    \preconditions{
+      \item A condition on start.
+      \item Another condition on start.
+    }
+    % 
+    % Postconditions: What must be true on successful completion?
+    % Type: single line
+    \postcondition{A single condition on successful completion.}
+    % ... when multiple: plural
+    % Type: itemized list
+    \postconditions{
+      \item A condition on successful completion.
+      \item Another condition on successful completion.
+    }
+    %
+    % Main Success Scenario: A typical, unconditional happy path scenario of success.
+    % Type: enumerated list
+    \mainsuccess{
+	    \item Start of Test.
+	    \item Test runs and runs.
+	    \item Test completion without any failure.
+    }
+    %
+    % Extensions: Alternate scenarios of success or failure.
+    % Type: itemized list
+    \extensions{
+	    \item[2.a] Test stopps immediatly wthout completion:
+		\begin{enumerate}
+		  \item[1.] System shows failure message
+		  \item[2.] User returns to step 1
+		\end{enumerate}
+	    \item[3.a] Test completion with failures:
+		\begin{enumerate}
+		  \item[1.] System shows failure message
+		  \item[2.] User returns to step 1
+		\end{enumerate}
+    }
+    %
+    % Special Requirements
+    % Type: itemized list
+    \requirements{
+	    \item Requirement A.
+	    \item Requirement B.
+    }
+    %
+    % Technology and Data Variations List: Varying I/O methods and data formats.
+    % Type: enumerated list
+    \technology{
+	    \item Technology C.
+	    \item Data Variation D.
+    }
+    %
+    % Frequency of Occurrence: Influences investigation, testing and timing of implementation.
+    % Type: single line
+    \frequency{Every other season.}
+    %
+    % Open Issues
+    % Type: itemized list
+    \openissues{
+	    \item Nowhere.
+	    \item Lost in space.
+    }
+    %
+    % Miscellaneous
+    % Type: itemized list
+    \miscellaneous{
+	    \item Power?
+	    \item Time elapsed.
+    }
+
+\end{usecase}
+
+\end{document}
+
+%---------------------------------------------------------------------------
+% EOF
