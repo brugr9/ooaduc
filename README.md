@@ -13,4 +13,6 @@ LaTeX style file for Use Cases (UC) in Object-Oriented Analysis and Design (OOAD
 - Programmiersprache LaTeX
 - Dateiformat *.sty (style file)
 <hr>
-Inspired by Tom Desair (see http://www.tomdesair.com/blog/2012/04/latex-template-for-use-cases/ )
+Inspired by Tom Desair (see 
+
+<a target="_blank" href="https://speakerdeck.com/brugr9/quadriken-im-raum-und-ihre-schnittbilder-an-ebenen-flachen-prasentation">Präsentation</a>http://www.tomdesair.com/blog/2012/04/latex-template-for-use-cases/ )
