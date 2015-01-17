@@ -14,5 +14,9 @@ LaTeX style file for Use Cases (UC) in Object-Oriented Analysis and Design (OOAD
 - Dateiformat *.sty (style file)
 
 <hr>
+##### Dokumentation
+- [Dokumentation](doc/ooaduc-template.pdf "Doku")
+
+<hr>
 Inspired by Tom Desair (see 
 <a target="_blank" href="http://www.tomdesair.com/blog/2012/04/latex-template-for-use-cases/">LaTeX Template for Use Cases</a>)
