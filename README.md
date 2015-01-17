@@ -15,7 +15,8 @@ LaTeX style file for Use Cases (UC) in Object-Oriented Analysis and Design (OOAD
 
 <hr>
 ##### Dokumentation
-- [Dokumentation](doc/ooaduc-template.pdf "Doku")
+- [Beispiel tex](doc/ooaduc-template.tex)
+- [Beispiel pdf](doc/ooaduc-template.pdf?raw=true)
 
 <hr>
 Inspired by Tom Desair (see 
